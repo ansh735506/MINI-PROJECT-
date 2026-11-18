@@ -1,0 +1,18 @@
+
+print("WELCOME TO OPTICS CLI CALCULATOR:)
+u = float(input("ENTER THE DISTANCE OF OBJECT FROM THE MIRROR (U) :"))
+f = float(input("ENTER THE FOCAL LENTH (F) :"))
+v = (u*f)/(u-f)
+m = -v/u
+if f<0:
+ print("invalid syntax ")
+print( '''
+THE THE DISTANCE BETWEEN IMAGE AND MIRROR:''',v,'''THE MAGNIFICATION:''',m)
+if v<0:
+  print("Image is real")
+elif v>0:
+  print("Image is virtual")
+if m<0:
+  print("And Inverted")
+elif m>0:
+  print("And Erect")
