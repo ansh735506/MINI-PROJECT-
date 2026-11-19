@@ -1,0 +1,13 @@
+total_bill=0
+order=str(input("WHAT WOULD YOU LIKE TO ORDER:"))
+a=str(input("ANYTHING ELSE?:"))
+if a=="nothing"or a=="no":
+  print("THANK YOU SIR:)")
+elif a=="quit" or a =="done":
+ print("THANK YOU SIR :)")
+else: print("ok")
+c=float(input("HOW MUCH DOES IT COSTS?:"))
+if c<1:
+  print ("INVALID AMOUNT:)")
+else:total_bill=(c+10.15)
+print("HERE IS YOUR TOTAL BILL WITH GST INCLUDED:",total_bill)
