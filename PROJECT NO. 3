@@ -1,0 +1,20 @@
+# HELLO THIS PROJECT GENRATES STUDENTS REPORT CARD.....MADE BY ANSH
+print ('WELCOME TO PERSONALIZED STUDENT GRADE SLIP GENERATOR 🧑‍🎓📝📝📊🪪')
+student_name=str(input("ENTER YOUR FULL NAME:"))
+print("WELCOME",student_name.upper(),"🥳🥳🥳🥳")
+total_marks=200
+marks_maths=float(input("ENTER YOUR MARKS OBTAINED IN MATHS:"))
+marks_it=float(input("ENTER YOUR MARKS OBTAINED IN IT:"))
+print('PLEASE KEEP PATIENCE, RESULT IS PROCESSING 🤗🤗')
+percentage=((marks_maths+marks_it)/total_marks)*100
+result=percentage 
+print("NAME OF STUDENT :",student_name.upper())
+
+print("PERCENTAGE :", result)
+
+if result>=50:
+  print('RESULT : PASSED🥳🥳🥳🥹')
+
+else:
+  print('RESULT : FAILED😭😭😭')
+  
